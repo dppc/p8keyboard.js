@@ -1,9 +1,9 @@
 # p8keyboard.js
-Javascript "keyboard adapter" for the Pico-8
+Javascript "keyboard adapter" for the [Pico-8](http://www.lexaloffle.com/pico-8.php)
 
 This is a hacktastic way to send ASCII characters to a Pico-8 program running in a browser.
 
-A demo is here: http://dppc.github.io/p8keyboard.js/asciidraw.html
+A demo is here: http://dppc.github.io/p8keyboard.js/asciidraw.html (Use arrows to move, spacebar to erase.)
 
 It works by overriding the usual input handling and sending numeric values via controllers 6 and 7.
 
